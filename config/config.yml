@@ -1,0 +1,13 @@
+settings:
+    redemet_api:
+        url_base:  'http://www.redemet.aer.mil.br/'
+        methods:
+                {'GetMetar' : { 
+                    'end_point' : 'api/consulta_automatica/index.php',
+                    'output_path' : './data/MetarLogs.dat',                              
+                    'log_path' : './log/MetarLogs.log',
+                    'params' : {}
+                                                }
+                }
+
+        

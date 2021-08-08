@@ -1,0 +1,28 @@
+name: ops-api
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip=20.0.2
+  - python=3.7.5
+  - python-dateutil=2.8.1
+  - pytz=2019.3
+  - dask=2.8.1
+  - numpy=1.17.3
+  - pandas=0.25.3
+  - pendulum=2.0.5
+  - scikit-learn=0.21.3
+  - tqdm=4.41.1
+  - xlrd=1.2.0
+  - pyyaml=5.1.2
+  - pip:
+    - django==3.0.2
+    - djangorestframework==3.11.0
+    - markdown==3.1.1
+    - django-filter==2.2.0
+    - django-widget-tweaks==1.4.5
+    - black==19.10b0
+    - chardet==3.0.4
+    - idna==2.8
+    - requests==2.22.0
+    - urllib3==1.25.7
